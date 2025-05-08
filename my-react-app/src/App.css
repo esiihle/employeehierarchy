@@ -1,0 +1,198 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+svg {
+  overflow: visible;
+  display: block;
+  width: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  min-height: 100vh;  /* Change to min-height or remove */
+  padding: 0 50px 150px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+button {
+  width: 30px;
+  border: 1px solid black;
+  margin: 0 auto 5px;
+}
+
+video {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: auto;
+  width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-create {
+  background-color: #fefefe;
+  margin: 7% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+  height: 75%;
+  border-radius: 20px;
+  align-content: center;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 7px solid #888;
+  width: 20%;
+  height: 30%;
+  border-radius: 20px;
+  align-content: center;
+}
+
+.modal2 {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content2 {
+  background-color: #fefefe;
+  margin: 8% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  height: 65%;
+  border-radius: 20px;
+  align-content: center;
+}
+
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.table-container {
+  max-height: 600px; /* Adjust the height as needed */
+  max-width: 1920px;
+  overflow-y: auto;
+  margin: auto;
+  /*padding-left: 120px;*/
+  border: 5px solid #ddd;
+}
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-container th {
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+}
+
+.button-container {
+  text-align: left; /* Align the button to the left within the container */
+  padding: 20px
+}
+
+/* Style for the button */
+.button-container Button {
+  margin-left: 90px; /* Adjust the right margin as needed */
+}
+
+.tree-page{
+
+}
+
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
